@@ -12,7 +12,7 @@ using namespace std::chrono;
 double f(double x);
 double f(double x)
 {
-    poly = (-pow(x, 4) + 30*pow(x, 3) + 15*pow(x, 2) + 34*x + 540)
+    double poly = (-pow(x, 4) + 30*pow(x, 3) + 15*pow(x, 2) + 34*x + 540);
     return poly;
 }
 
